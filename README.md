@@ -1,10 +1,35 @@
-# Getting Started with Create React App
+## Queue Log Action Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app will generate valid Asterisk queue_log records based on the documentation present at https://wiki.asterisk.org/wiki/display/AST/Queue+Logs .
+
+## Usage
+
+Start the app with 
+
+    npm run start
+
+Select the verb you need, and input any relevant parameters. Once you are done, click generate.
+
+### Download
+
+You can download the queue_log file by clicking on the Download button.
+
+### Copy to Clipboard
+
+You can copy the generate queue_log to the Clipboard by clicking on the Copy to Clipboard button.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+## Local Storage 
+
+This app uses your browser's local storage to keep track of the following values:
+
+-   enterqueue timestamp (once per unique callId)
+-   connect timestamp (once per unique callId)
+-   holdTime (once per unique callId)
+-   callTime (once per unique callId)
 
 ### `npm start`
 
