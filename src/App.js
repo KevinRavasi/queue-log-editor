@@ -57,7 +57,7 @@ function App() {
     return (
         <div className="appContainer">
             {renderedMessages}
-            <h1>Queue Log Action Generator</h1>
+            <h1>Queue Log Editor</h1>
             <FormControl variant="outlined" className="formControl">
                 <InputLabel id="demo-simple-select-outlined-label">Action</InputLabel>
                 <Select

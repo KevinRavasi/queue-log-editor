@@ -1,6 +1,8 @@
-## Queue Log Action Generator
+## Queue Log Editor
 
 This app will generate valid Asterisk queue_log records based on the documentation present at https://wiki.asterisk.org/wiki/display/AST/Queue+Logs .
+
+![Queue Log Editor](./images/Example.png)
 
 ## Usage
 
