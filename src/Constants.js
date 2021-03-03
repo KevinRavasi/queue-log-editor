@@ -1,6 +1,6 @@
-import AddMemberForm from "./AddMemberForm";
-
-export const actions = {
+export const actions = {  
+  AGENTLOGIN: {verb: "AGENTLOGIN"},
+  AGENTLOGOFF: {verb: "AGENTLOGOFF"},
   ADDMEMBER: {verb: "ADDMEMBER"},
   REMOVEMEMBER: {verb: "REMOVEMEMBER"},
   PAUSE: {verb: "PAUSEALL"},
@@ -9,4 +9,4 @@ export const actions = {
   CONNECT: {verb: "CONNECT"},
   COMPLETEAGENT: {verb: "COMPLETEAGENT"},
   COMPLETECALLER: {verb: "COMPLETECALLER"},
-};
+}

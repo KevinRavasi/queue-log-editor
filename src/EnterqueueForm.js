@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function AddMemberForm({ onChange }) {
+export default function EnterqueueForm({ onChange }) {
     const classes = useStyles();
 
     const [callUniqueId, setCallUniqueId] = useState(localStorage.getItem("callUniqueId"));
